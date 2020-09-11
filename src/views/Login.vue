@@ -106,7 +106,7 @@ export default {
             let responses = error.response;
             this.setAlert({
               status: true,
-              text: responses.data.message,
+              text: responses.message,
               type: "error",
             });
           });
